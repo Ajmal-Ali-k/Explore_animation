@@ -1,0 +1,38 @@
+.parent {
+    background-color: hsla(200, 100%,20%);
+    height:400px ;
+    width: 400px;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    background: red;
+    /* transition: transform 1s ease-in 1s; */
+    animation:left-to-right 1s ease-in forwards 10 alternate ;
+
+}
+
+.parent:hover .child{
+    /* transform: translate(100%); */
+    background-color: green;
+    /* animation:left-to-right 1s ease-in forwards 4 alternate 1s; */
+    animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+    0%{
+        transform: translateX(0);
+
+    }
+    33% {
+        transform: translateY(100%);
+    }
+    66%{
+        transform: translate(100%,100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+      
+}
