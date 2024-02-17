@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: palegreen;
+}
+#box3 {
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+} */
+
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+  
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#nav-part2{
+    display: flex;
+    gap: 20px;
+}
